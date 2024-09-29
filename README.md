@@ -23,7 +23,7 @@ The **Clinic Management Website** includes the following features:
 
 1. Clone this repository.
 2. Set up a local or remote server (e.g., **XAMPP**, **WAMP**, or **LAMP**).
-3. Import the `clinic_database.sql` file from the [clinicaDatabase](https://github.com/tatianafrsousa/clinicaDatabase) repository into your **MySQL** server.
+3. Import the `clinica.sql` file from the [clinicaDatabase](https://github.com/tatianafrsousa/clinicaDatabase) repository into your **MySQL** server.
 4. Configure the database connection in the `db_connect.php` file:
    ```php
    <?php
