@@ -1,0 +1,78 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-link .nav-item {
+	color: #41baf0;
+}
+
+.navbar {
+    background-color: #daf7ff; 
+    padding: 1rem 2rem;
+	font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    background-color: white;
+	color: #3dbdec;
+	font-weight: bold;
+	font-size: 1.1rem;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.container {
+    flex: 1;
+}
+
+
+.card .especialidade {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.especialidade img {
+    transition: transform 0.3s ease;
+}
+
+.especialidade:hover img {
+    transform: scale(1.1);
+}
+
+.show-on-hover {
+    display: none; /* Esconder o botão por padrão */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.card .especialidade:hover .show-on-hover {
+    display: block; /* Mostrar o botão ao fazer hover */
+}
+
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    margin-top: auto;
+}
